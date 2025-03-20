@@ -10,7 +10,6 @@
 	<meta name="author" content="freehtml5.co" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-
 	<!-- 
 	//////////////////////////////////////////////////////
 
@@ -96,6 +95,7 @@
 							<h3><span>Frontend Developer</span></h3>
 							<p class="passion">With a passion for creating clean, responsive, and user-friendly web experiences. This space showcases my journey, projects, and skills as I continue to grow and explore the world of web development.
 							</p>
+							<a href="images/ResumeKeira.pdf" download class="btn btn-primary">Download my CV</a>
 						</div>
 					</div>
 				</div>
@@ -224,7 +224,7 @@
 									<span class="company">School of Fashion - 2023</span>
 								</div>
 								<div class="timeline-body">
-									<p>n 2023, I completed four fashion courses in pattern making and sewing, gaining expertise in creating custom patterns and bringing designs to life through skilled sewing techniques.</p>
+									<p>In 2023, I completed four fashion courses in pattern making and sewing, gaining expertise in creating custom patterns and bringing designs to life through skilled sewing techniques.</p>
 								</div>
 							</div>
 						</li>
@@ -340,14 +340,19 @@
                 <h3>WordPress</h3>
             </div>
             <div class="projects-grid">
-                <a href="https://dev-keirak.pantheonsite.io/" class="work" style="background-image: url(images/download.jpg);">
+                <a href="https://dev-keirak.pantheonsite.io/" class="work" target="_blank" style="background-image: url(images/download.jpg);">
                     <div class="desc">
                         <h4>Personal Portfolio</h4>
                     </div>
                 </a>
-                <a href="https://dev-keiraecom.pantheonsite.io/" class="work" style="background-image: url(images/ecom.jpg);">
+                <a href="https://dev-keiraecom.pantheonsite.io/" class="work" target="_blank" style="background-image: url(images/ecom.jpg);">
                     <div class="desc">
                         <h4>Ecommerce</h4>
+                    </div>
+                </a>
+                <a href="https://y1.lcstudio-incubate.co.za/" class="work" target="_blank" style="background-image: url(images/member.jpeg);">
+                    <div class="desc">
+                        <h4>A Membership Site</h4>
                     </div>
                 </a>
             </div>
@@ -370,21 +375,21 @@
 			</div>
 			<div class="row col-md-6">
 				<div class="choose animate-box">
-					<!-- <h2 class="contactme">Contact</h2> -->
 					<div class="contact-container">
 						<form action="https://formspree.io/f/mqaelbeb" method="POST">
 							<div class="input-group">
-								<input type="text" id="fname" placeholder="Your First Name">
-								<input type="text" id="lname" placeholder="Your Last Name">
+								<input type="text" id="fname" name="fname" placeholder="Your First Name" required>
+								<input type="text" id="lname" name="lname" placeholder="Your Last Name" required>
 							</div>
-							<input type="email" id="email" placeholder="Your Email Address">
-							<input type="text" id="subject" placeholder="Subject">
-							<textarea id="message" rows="5" placeholder="Say something about us"></textarea>
+							<input type="email" id="email" name="email" placeholder="Your Email Address" required>
+							<input type="text" id="subject" name="subject" placeholder="Subject" required>
+							<textarea id="message" name="message" rows="5" placeholder="Say something about us" required></textarea>
 							<button type="submit">Send Message</button>
 						</form>
 					</div>
 				</div>
 			</div>
+			
 		</div>
 
 	<div id="fh5co-footer">
